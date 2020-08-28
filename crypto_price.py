@@ -26,4 +26,4 @@ while True:
         print("You could had " + str(possible_cashMoney) + "$ if you bought on ATH!")
     except:
         print("Oops!", sys.exc_info()[0], "occurred.")
-        print("You probably mistyped the coin, please try again!")
+        print("You typed in " + coin +  " please try again!")
