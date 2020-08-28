@@ -22,4 +22,4 @@ print(coin + " price on " + dt_string + " at " + current_time + " is: " + curren
 print(coin + " ath was: " + ath_price)
 current_x = float(input("How many coins do you have right now? "))
 possible_cashMoney = ath_price_cash_new * current_x
-print("You could've had " + str(possible_cashMoney) + " " + coin + " if you bought on ATH!")
+print("You could've had " + str(possible_cashMoney)  + "$ if you bought on ATH!")
